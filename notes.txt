@@ -1,0 +1,49 @@
+# mutation {
+#  updatePersona(id: "a41f4bc3ad37a93836b9", datos: {
+#    nombre: "messi",
+#    edad: 18
+#  }) {
+#    id
+#   nombre
+#   edad
+#  }
+# }
+# mutation {
+#  createPersona(datos: {
+#    nombre: "juan",
+#    edad: 35
+#  }) {
+#    id
+#  }
+# }
+
+# mutation {
+#  updatePersona(id: "a41f4bc3ad37a93836b9", datos: {
+#    nombre: "messi",
+#    edad: 18
+#  }) {
+#    id
+#   nombre
+#   edad
+#  }
+# }
+
+#  {
+#  getPersona (id: "d90227890d5334cc464b")
+#  {
+#   id
+   
+#    edad
+  
+#  }
+# }
+
+ {
+ getPersonas
+ {
+  id
+   nombre
+   edad
+  
+ }
+}
